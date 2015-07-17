@@ -1,0 +1,17 @@
+{
+  "name": "reactbootstrapbug",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.23.7"
+  },
+  "devDependencies": {
+    "browserify": "4.2.2",
+    "babelify": "^6.1.2"
+  },
+  "scripts": {
+    "build": "browserify -t babelify src.js > bundle.js"
+  },
+  "author": "jason-wolfe"
+}
